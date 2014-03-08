@@ -1,7 +1,7 @@
 *{margin:0;padding:0;outline:0;}
 
 body#cary {
-background:white url(/siteImages/pageBG.jpg) repeat-x ;
+background:white url(../siteImages/pageBG.jpg) repeat-x ;
 font-size:75%;
 font-family: Arial, Helvetica, Sans-serif;
 font-style:normal;
@@ -19,7 +19,7 @@ position:absolute;
 text-indent:-5000px;
 width:320px;
 height:15px;
-background: url(/siteImages/sloganBG.jpg) no-repeat;
+background: url(../siteImages/sloganBG.jpg) no-repeat;
 top:60px;right:100px;
 }
 
@@ -30,7 +30,7 @@ height:150px;
 
 #cary #content {
 margin:30px 0;
-background: url(/siteImages/sidebarMiddleBG.jpg) repeat-y  620px 0;
+background: url(../siteImages/sidebarMiddleBG.jpg) repeat-y  620px 0;
 }
 
 #main {
@@ -41,7 +41,7 @@ clear:none;
 }
 
 #sidebar {
-background: url(/siteImages/sidebarEndsBG.jpg) no-repeat 0 -50px;
+background: url(../siteImages/sidebarEndsBG.jpg) no-repeat 0 -50px;
 min-height:600px;
 float:right;
 width:280px;
@@ -61,7 +61,7 @@ margin-bottom:5px;
 background:white;
 min-height:50px;
 clear:both;
-background: url(/siteImages/sidebarEndsBG.jpg) no-repeat 620px 0px;
+background: url(../siteImages/sidebarEndsBG.jpg) no-repeat 620px 0px;
 }
 
 
@@ -86,7 +86,7 @@ float:left;
 display:block;
 height:30px;
 text-indent:-5000px;
-background-image:url(/siteImages/nav01BG.jpg);
+background-image:url(../siteImages/nav01BG.jpg);
 }
 
 #nav01 #menu_default a{
@@ -94,7 +94,7 @@ margin-top:0;
 position:absolute;
 top:0;left:-50px;
 width:250px;height:150px;
-background: url(/siteImages/homeBG.jpg) top left; 
+background: url(../siteImages/homeBG.jpg) top left;
 }
 
 #nav01 #menu_default a:hover{
@@ -144,7 +144,7 @@ float:left;
 clear:both;
 display:block;
 text-decoration:none;
-background:url(/siteImages/nav02BG.jpg) no-repeat top left;
+background:url(../siteImages/nav02BG.jpg) no-repeat top left;
 padding:5px 0px 5px 20px;
 width:250px;
 }
@@ -152,7 +152,7 @@ width:250px;
 .nav02 li a:hover,
 .nav02 li.selected a{
 color:#444;
-background:url(/siteImages/nav02BG.jpg) no-repeat bottom left;
+background:url(../siteImages/nav02BG.jpg) no-repeat bottom left;
 opacity: 0.6;
 -moz-opacity: 0.6;
 filter:alpha(opacity=60);
@@ -212,7 +212,7 @@ margin-bottom:5px;
 float:left;
 clear:left;
 margin:0 20px 0 0;
-background:transparent url(/siteImages/buttonBG.gif) repeat-x scroll right bottom;
+background:transparent url(../siteImages/buttonBG.gif) repeat-x scroll right bottom;
 padding:2px 8px 8px 2px;
 border:1px solid #eee;
 border-width:1px 0 0 1px;
@@ -236,7 +236,7 @@ border:0px solid #ddd;
 margin:3px 0 0 0;
 padding:5px 0 5px 0;
 display:block;
-background: #fff url(/siteImages/gradUpGray.gif) repeat-x 0 130%;
+background: #fff url(../siteImages/gradUpGray.gif) repeat-x 0 130%;
 clear:both;
 text-align:center;
 font-size:26px;
@@ -268,7 +268,7 @@ list-style:none;
 float:right;
 padding:0 6px 6px 0;
 float:right;
-background: url(/siteImages/buttonBG.gif) repeat-x bottom right;
+background: url(../siteImages/buttonBG.gif) repeat-x bottom right;
 margin:0 0 0 5px;}
 
 .buttonList a, .button input,
@@ -276,7 +276,7 @@ margin:0 0 0 5px;}
 font-size: 9px;
 color:#999;
 display:block;
-background: url(/siteImages/gradUpGray.gif) repeat-x 0% 30%;
+background: url(../siteImages/gradUpGray.gif) repeat-x 0% 30%;
 padding:3px 6px;
 border:1px solid #ccc;
 text-decoration:none;
