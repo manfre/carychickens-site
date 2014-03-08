@@ -1,0 +1,46 @@
+body {
+	margin: 0px;
+	background-color: #ffffff;
+	font-color: #000000;
+}
+
+#header, #header div {
+	background-color: #FFFFcc;
+	vertical-align: bottom;
+}
+
+#header .site-name {
+	font-size: 16pt;
+	text-decoration: none;
+}
+.site-slogan {
+	top: 5px;
+}
+
+#sidebar {
+	background-color: #ffffff;
+}
+
+.container {
+	background-color: #ffffff;
+	margin-top: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-menu {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+div.main-menu a {
+	width: 80;
+	height: auto;
+	background-color: #ccc;
+}
+.main-menu a:hover {
+	background-color: #ccc;
+}

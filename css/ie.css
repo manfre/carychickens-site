@@ -1,0 +1,22 @@
+.date{
+width:55px;
+height:54px;
+}
+
+#sidebar h4{
+margin-left:9px;
+}
+
+#googleSearchField, #mailingEmail{
+float:left;
+clear:left;
+margin-left:0;
+display:block;
+height:20px;
+}
+
+#googleSearch,
+#mailingList{
+margin-left:9px;
+width:250px;
+}

@@ -1,0 +1,349 @@
+*{margin:0;padding:0;outline:0;}
+
+body#cary {
+background:white url(/siteImages/pageBG.jpg) repeat-x ;
+font-size:75%;
+font-family: Arial, Helvetica, Sans-serif;
+font-style:normal;
+color:#777;
+}
+
+#page {
+width:900px;
+margin:0px auto;
+position:relative;
+}
+
+#slogan{
+position:absolute;
+text-indent:-5000px;
+width:320px;
+height:15px;
+background: url(/siteImages/sloganBG.jpg) no-repeat;
+top:60px;right:100px;
+}
+
+
+#nav01{
+height:150px;
+}
+
+#cary #content {
+margin:30px 0;
+background: url(/siteImages/sidebarMiddleBG.jpg) repeat-y  620px 0;
+}
+
+#main {
+min-height:600px;
+width:620px;
+float:left;
+clear:none;
+}
+
+#sidebar {
+background: url(/siteImages/sidebarEndsBG.jpg) no-repeat 0 -50px;
+min-height:600px;
+float:right;
+width:280px;
+clear:right;
+padding-top:50px;
+}
+
+#sidebar h4{
+clear:both;
+float:left;
+width:260px;;
+margin-left:18px;
+margin-bottom:5px;
+}
+
+#footer{
+background:white;
+min-height:50px;
+clear:both;
+background: url(/siteImages/sidebarEndsBG.jpg) no-repeat 620px 0px;
+}
+
+
+/* Nav 01 .......................................*/
+
+
+#nav01 ul{
+float:right;
+display:block;
+clear:none;
+}
+
+#nav01 ul li{
+float:left;
+display:block;
+list-style:none;
+}
+
+#nav01 li a{
+margin-top:120px;
+float:left;
+display:block;
+height:30px;
+text-indent:-5000px;
+background-image:url(/siteImages/nav01BG.jpg);
+}
+
+#nav01 #menu_default a{
+margin-top:0;
+position:absolute;
+top:0;left:-50px;
+width:250px;height:150px;
+background: url(/siteImages/homeBG.jpg) top left; 
+}
+
+#nav01 #menu_default a:hover{
+margin-top:0;
+position:absolute;
+top:0;left:-50px;
+width:250px;height:150px;
+background-position:bottom left; 
+}
+
+#nav01 li#menu_about a{ width:97px; background-position: -5px -60px;}
+#nav01 #menu_benefits a{ width:112px;background-position: -112px -60px;}
+#nav01 #menu_concerns a{ width:137px; background-position: -233px -60px;}
+#nav01 #menu_contact a{width:110px; background-position: -378px -60px;}
+#nav01 #menu_petition a{width:115px;background-position: -496px -60px;}
+
+#nav01 li#menu_about a:hover{background-position: -5px -30px;}
+#nav01 #menu_benefits a:hover{background-position: -112px -30px;}
+#nav01 #menu_concerns a:hover{background-position: -233px -30px;}
+#nav01 #menu_contact a:hover{background-position: -378px -30px;}
+#nav01 #menu_petition a:hover{background-position: -496px -30px;}
+
+#nav01 li#menu_about.selected a{background-position: -5px 0px;}
+#nav01 #menu_benefits.selected a{background-position: -112px 0px;}
+#nav01 #menu_concerns.selected a{background-position: -233px 0px;}
+#nav01 #menu_contact.selected a{background-position: -378px 0px;}
+#nav01 #menu_petition.selected a{background-position: -496px 0px;}
+
+
+/* Nav 02 .......................................*/
+
+.nav02{
+float:left;
+margin-bottom:30px;}
+
+.nav02 li{
+display:block;
+float:left;clear:both;
+list-style:none;
+}
+
+.nav02 li a{
+font-family:arial;
+font-size:12px;
+color:#aaa;
+float:left;
+clear:both;
+display:block;
+text-decoration:none;
+background:url(/siteImages/nav02BG.jpg) no-repeat top left;
+padding:5px 0px 5px 20px;
+width:250px;
+}
+
+.nav02 li a:hover,
+.nav02 li.selected a{
+color:#444;
+background:url(/siteImages/nav02BG.jpg) no-repeat bottom left;
+opacity: 0.6;
+-moz-opacity: 0.6;
+filter:alpha(opacity=60);
+}
+
+.nav02 li.selected a:hover{
+opacity: 1;
+-moz-opacity: 1;
+filter:alpha(opacity=100);
+}
+
+#mailingList,
+#googleSearch{
+clear:both;
+float:left;
+margin:3px 0 30px 20px;
+}
+
+
+.galleryImage{
+margin:-20px 0 30px;
+border-left:1px solid #bbb;
+}
+
+/* Stories .......................................*/
+
+p{
+size:1em;
+line-height:135%;
+margin-bottom:1em;
+}
+
+.story p a{color:#823636;}
+.story p a:hover{color:#572424;}
+
+blockquote{
+font-style:italic;
+margin:0 20px 20px 20px
+}
+
+#main .story{
+float:left;
+clear:both;
+width:550px;
+border-bottom:1px dotted #bbb;
+padding:20px 40px 20px 0;
+margin-right:40px;
+}
+
+#main .story h4{
+margin-bottom:5px;
+}
+
+.date,
+.storyThumb
+{
+float:left;
+clear:left;
+margin:0 20px 0 0;
+background:transparent url(/siteImages/buttonBG.gif) repeat-x scroll right bottom;
+padding:2px 8px 8px 2px;
+border:1px solid #eee;
+border-width:1px 0 0 1px;
+}
+
+.date h3{
+margin:0;
+font-size:8.5px;
+padding:2px 0 0;
+display:block;
+clear:none;
+text-align:center;
+background:#9B071F;
+width:55px;
+float:right;
+color:white;
+}
+
+.date h3 strong{
+border:0px solid #ddd;
+margin:3px 0 0 0;
+padding:5px 0 5px 0;
+display:block;
+background: #fff url(/siteImages/gradUpGray.gif) repeat-x 0 130%;
+clear:both;
+text-align:center;
+font-size:26px;
+letter-spacing:-1px;
+color:#9B071F;
+line-height:1.1em;
+}
+
+.date{
+display:none;
+}
+
+.default .date,
+.news .date{
+display:block;
+}
+
+/* Button List .......................................*/
+
+.story .buttonList{
+float:right;
+clear:both;
+list-style:none;
+margin-top:-5px;
+}
+
+.story .buttonList li{
+list-style:none;
+float:right;
+padding:0 6px 6px 0;
+float:right;
+background: url(/siteImages/buttonBG.gif) repeat-x bottom right;
+margin:0 0 0 5px;}
+
+.buttonList a, .button input,
+.nav05 .buttonList a{
+font-size: 9px;
+color:#999;
+display:block;
+background: url(/siteImages/gradUpGray.gif) repeat-x 0% 30%;
+padding:3px 6px;
+border:1px solid #ccc;
+text-decoration:none;
+line-height:100%
+}
+
+.buttonList a:hover,
+.nav05 .buttonList a:hover, 
+.button input:hover{
+background:#E9E1D7;
+border-color:#967C6D;
+color:#965F3E;
+}
+
+.first .buttonList{ clear:none;}
+.top .buttonList li{display:none;}
+.top .buttonList .edit{display:block}
+li.vineaMore{display:none;}
+
+#main .prev, #main .next{float:left;}
+
+#main .prev{margin-left:0;}
+
+
+
+
+
+.contact .zemContactForm{
+font-size:11px;
+float:left;clear:none;
+color:gray;width:500px;
+margin-top:15px;
+}
+
+fieldset{border:none;}
+legend {display:none;}
+
+label{ /* default labels */
+float:left;
+clear:left;
+vertical-align:baseline;
+display:block;
+margin:3px 0 8px 0;
+height:15px;
+line-height:150%;
+width:20%;}
+
+.contact input.zemText,
+.contact textarea.zemTextarea{
+border:1px inset #ccc;
+border-width:1px;
+background:#f5f5f5;
+margin-bottom:8px;
+width:79%;float:right;
+padding:3px 0 0;
+clear:right;
+height:15px;
+font:11px arial;
+}
+
+.contact textarea.zemTextarea{
+height:auto;
+}
+
+input.zemSubmit{
+clear:both;
+float:right;
+}
+
+
